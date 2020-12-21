@@ -1,4 +1,4 @@
-package main.businesslogic;
+package org.example.core;
 
 public class Flat {
     private Long price;
@@ -7,10 +7,10 @@ public class Flat {
     private String area;
     private String type;
     private String address;
-    private Integer roomsCount;
+    private Long roomsCount;
 
     public Flat(Long price, Double square, String city, String area,
-                String type, String address, Integer roomsCount) {
+                String type, String address, Long roomsCount) {
         this.price = price;
         this.square = square;
         this.city = city;
@@ -45,7 +45,7 @@ public class Flat {
         return this.address;
     }
 
-    public int getRoomsCount() {
+    public Long getRoomsCount() {
         return this.roomsCount;
     }
 

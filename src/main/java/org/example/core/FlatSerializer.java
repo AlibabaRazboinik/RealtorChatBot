@@ -1,4 +1,4 @@
-package main.businesslogic;
+package org.example.core;
 
 
 import com.google.gson.*;
@@ -18,7 +18,7 @@ public class FlatSerializer implements JsonSerializer<Flat>, JsonDeserializer<Fl
                 jsonObject.has("area") ? jsonObject.get("area").getAsString() : null,
                 jsonObject.has("type") ? jsonObject.get("type").getAsString() : null,
                 jsonObject.has("address") ? jsonObject.get("address").getAsString() : null,
-                jsonObject.has("rooms_count") ? jsonObject.get("rooms_count").getAsInt() : null
+                jsonObject.has("rooms_count") ? jsonObject.get("rooms_count").getAsLong() : null
         );
     }
 
