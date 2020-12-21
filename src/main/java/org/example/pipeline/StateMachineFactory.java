@@ -16,7 +16,7 @@ import java.util.*;
 
 public class StateMachineFactory {
     private static final List<String> allowedCities = new ArrayList<>(Arrays.asList("Екатеринбург", "Москва"));
-    private static final String startResponseText = (
+    public static final String START_RESPONSE_TEXT = (
             "Привет! Я помогу выбрать подходящую квартиру.\n" +
             "Если готовы начать поиск прямо сейчас, введите максимальную сумму, за которую готовы купить квартиру."
     );
@@ -25,7 +25,7 @@ public class StateMachineFactory {
         Map<String, String> nextScenario = new HashMap<>();
         nextScenario.put("simpleScenario", "simpleScenario");
         State startState = new State("simpleScenario");
-        Response startResponse = new Response(startResponseText);
+        Response startResponse = new Response(START_RESPONSE_TEXT);
 
         return new StateMachine(createScenarios(), nextScenario, startState, startResponse);
     }

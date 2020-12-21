@@ -43,6 +43,6 @@ public class JsonFlatSearcher implements FlatSearcher {
         if (!flat.getRoomsCount().equals(params.getRoomsCount()))
             return false;
 
-        return !flat.getCity().equalsIgnoreCase(params.getCity());
+        return flat.getCity().equalsIgnoreCase(params.getCity());
     }
 }
