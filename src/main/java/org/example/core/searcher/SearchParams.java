@@ -3,13 +3,13 @@ package org.example.core.searcher;
 import java.util.Map;
 
 public class SearchParams {
-    private Long maxPrice;
-    private String city;
-    private Long roomsCount;
+    private final Long maxPrice;
+    private final String city;
+    private final Long roomsAmount;
 
     public SearchParams() {
         this.maxPrice = null;
-        this.roomsCount = null;
+        this.roomsAmount = null;
         this.city = null;
     }
 
@@ -23,7 +23,7 @@ public class SearchParams {
         city = (String) object;
 
         object = optionsValues.get(Option.ROOMS_COUNT.getName());
-        roomsCount = (Long) object;
+        roomsAmount = (Long) object;
     }
 
     public Long getMaxPrice() {
@@ -34,20 +34,7 @@ public class SearchParams {
         return this.city;
     }
 
-    public Long getRoomsCount() {
-        return this.roomsCount;
+    public Long getRoomsAmount() {
+        return this.roomsAmount;
     }
-
-    public void setMaxPrice(Long maxPrice) {
-        this.maxPrice = maxPrice;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
-
-    public void setRoomsCount(Long roomsCount) {
-        this.roomsCount = roomsCount;
-    }
-
 }

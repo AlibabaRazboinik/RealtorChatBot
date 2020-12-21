@@ -36,14 +36,12 @@ public class PlainTextResponseFormatter {
     }
 
     private static String flatToString(Flat flat) {
+        // todo: actualize
         return "---------------------------------------\n" +
                 "Город: " + flat.getCity() + "\n" +
                 "Цена: " + flat.getPrice() + "\n" +
-                "Тип: " + flat.getType() + "\n" +
                 "Площадь: " + flat.getSquare() + "\n" +
-                "Район: " + flat.getArea() + "\n" +
                 "Адрес: " + flat.getAddress() + "\n" +
-                "Число комнат: " + flat.getRoomsCount() + "\n" +
                 "---------------------------------------\n";
     }
 }

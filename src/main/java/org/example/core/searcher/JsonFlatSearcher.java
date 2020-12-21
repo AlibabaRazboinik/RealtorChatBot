@@ -40,7 +40,7 @@ public class JsonFlatSearcher implements FlatSearcher {
     private boolean isAppropriateFlat(Flat flat, SearchParams params) {
         if (flat.getPrice() > params.getMaxPrice())
             return false;
-        if (!flat.getRoomsCount().equals(params.getRoomsCount()))
+        if (!flat.getRoomsAmount().equals(params.getRoomsAmount()))
             return false;
 
         return flat.getCity().equalsIgnoreCase(params.getCity());
