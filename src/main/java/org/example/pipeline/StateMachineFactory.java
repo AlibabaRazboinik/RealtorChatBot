@@ -11,7 +11,7 @@ import org.example.core.searcher.JsonFlatSearcher;
 import org.example.core.searcher.Option;
 import org.example.core.searcher.FlatSearcher;
 
-import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.*;
 
 public class StateMachineFactory {
@@ -21,7 +21,7 @@ public class StateMachineFactory {
             "Если готовы начать поиск прямо сейчас, введите максимальную сумму, за которую готовы купить квартиру."
     );
 
-    public static StateMachine create() throws FileNotFoundException {
+    public static StateMachine create() throws IOException {
         Map<String, String> nextScenario = new HashMap<>();
         nextScenario.put("simpleScenario", "simpleScenario");
         State startState = new State("simpleScenario");
@@ -30,14 +30,14 @@ public class StateMachineFactory {
         return new StateMachine(createScenarios(), nextScenario, startState, startResponse);
     }
 
-    private static Map<String, Scenario> createScenarios() throws FileNotFoundException{
+    private static Map<String, Scenario> createScenarios() throws IOException {
         Map<String, Scenario> scenarios = new HashMap<>();
         scenarios.put("simpleScenario", createSimpleScenario());
 
         return scenarios;
     }
 
-    private static Scenario createSimpleScenario() throws FileNotFoundException {
+    private static Scenario createSimpleScenario() throws IOException {
         List<Step> steps = new ArrayList<>(Arrays.asList(
                 createMaxPriceStep(),
                 createCityStep(),
@@ -63,7 +63,7 @@ public class StateMachineFactory {
         return new TextExtractionStep(allowedCities, onSuccessTextTemplate, onFailTextTemplate, Option.CITY.getName());
     }
 
-    private static Step createFlatSuggestingStep() throws FileNotFoundException{
+    private static Step createFlatSuggestingStep() throws IOException {
         List<Step> steps = new ArrayList<>(Arrays.asList(
                 createRoomsStep(),
                 createFlatSearcherStep()
@@ -78,7 +78,7 @@ public class StateMachineFactory {
         return new LongNumberStep(onFailText, Option.ROOMS_COUNT.getName());
     }
 
-    private static Step createFlatSearcherStep() throws FileNotFoundException {
+    private static Step createFlatSearcherStep() throws IOException {
         FlatSearcher flatSearcher = new JsonFlatSearcher("flats.json");
         return new FlatSearcherStep(flatSearcher);
     }

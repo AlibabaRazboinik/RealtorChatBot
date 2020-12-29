@@ -1,15 +1,13 @@
 package org.example.representer;
 
-import org.example.core.Flat;
 import org.example.core.Request;
 import org.example.core.Response;
 import org.example.core.graph.StateMachine;
 
-import java.util.List;
 import java.util.Scanner;
 
 public class ConsolePresenter implements Presenter {
-    private StateMachine stateMachine;
+    private final StateMachine stateMachine;
     private static final String consoleUserId = "console_user";
 
     public ConsolePresenter(StateMachine stateMachine) {

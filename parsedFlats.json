@@ -1,0 +1,218 @@
+[
+  {
+    "price": 2400000,
+    "square": 45.0,
+    "address": "Свердловская область, Екатеринбург, ул. Щорса, 103",
+    "roomsAmount": 1,
+    "flatFloor": 13,
+    "totalHouseFloors": 18,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 3300000,
+    "square": 40.0,
+    "address": "Свердловская область, Екатеринбург, Орджоникидзевский район, микрорайон Эльмаш, Шефская ул., 103",
+    "roomsAmount": 1,
+    "flatFloor": 10,
+    "totalHouseFloors": 10,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 4300000,
+    "square": 80.0,
+    "address": "Свердловская область, Екатеринбург, ул. Фурманова, 123",
+    "roomsAmount": 2,
+    "flatFloor": 11,
+    "totalHouseFloors": 12,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 2300000,
+    "square": 46.0,
+    "address": "Свердловская область, Екатеринбург, Союзная ул., 4",
+    "roomsAmount": 1,
+    "flatFloor": 13,
+    "totalHouseFloors": 14,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 2900000,
+    "square": 35.0,
+    "address": "Свердловская область, Екатеринбург, ул. Челюскинцев, 25",
+    "roomsAmount": 1,
+    "flatFloor": 7,
+    "totalHouseFloors": 9,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 6300000,
+    "square": 101.0,
+    "address": "Свердловская область, Екатеринбург, ул. Мельникова, 20",
+    "roomsAmount": 3,
+    "flatFloor": 8,
+    "totalHouseFloors": 12,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 1500000,
+    "square": 36.0,
+    "address": "Свердловская область, Екатеринбург, ул. Шейнкмана, 86А",
+    "roomsAmount": 1,
+    "flatFloor": 8,
+    "totalHouseFloors": 18,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 4300000,
+    "square": 44.0,
+    "address": "Свердловская область, Екатеринбург, ул. Юмашева, 6",
+    "roomsAmount": 2,
+    "flatFloor": 17,
+    "totalHouseFloors": 17,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 1500000,
+    "square": 30.0,
+    "address": "Свердловская область, Екатеринбург, ул. Соболева, 19",
+    "roomsAmount": 0,
+    "flatFloor": 12,
+    "totalHouseFloors": 16,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 3790000,
+    "square": 45.0,
+    "address": "Свердловская область, Екатеринбург, Переходный пер., 6",
+    "roomsAmount": 2,
+    "flatFloor": 15,
+    "totalHouseFloors": 22,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 1390000,
+    "square": 35.0,
+    "address": "Свердловская область, Екатеринбург, ул. Малышева, 42А",
+    "roomsAmount": 0,
+    "flatFloor": 4,
+    "totalHouseFloors": 15,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 1500000,
+    "square": 30.0,
+    "address": "Свердловская область, Екатеринбург, ул. Соболева, 19",
+    "roomsAmount": 0,
+    "flatFloor": 12,
+    "totalHouseFloors": 16,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 3900000,
+    "square": 77.0,
+    "address": "Свердловская область, Екатеринбург, улица Юмашева, 1",
+    "roomsAmount": 2,
+    "flatFloor": 8,
+    "totalHouseFloors": 25,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 4515590,
+    "square": 66.7,
+    "address": "жилой комплекс Космонавтов 11, д. 11, корп. 4.1",
+    "roomsAmount": 3,
+    "flatFloor": 10,
+    "totalHouseFloors": 16,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 100000000,
+    "square": 35.0,
+    "address": "Свердловская область, Екатеринбург, ул. Щорса, 103",
+    "roomsAmount": 1,
+    "flatFloor": 3,
+    "totalHouseFloors": 18,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 2800000,
+    "square": 30.0,
+    "address": "Свердловская область, Екатеринбург, ул. Бакинских Комиссаров, 107",
+    "roomsAmount": 1,
+    "flatFloor": 6,
+    "totalHouseFloors": 10,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 1500000,
+    "square": 45.0,
+    "address": "Свердловская область, Екатеринбург, ул. Щорса, 103",
+    "roomsAmount": 0,
+    "flatFloor": 3,
+    "totalHouseFloors": 20,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 4790000,
+    "square": 45.0,
+    "address": "Свердловская область, Екатеринбург, Переходный пер., 6",
+    "roomsAmount": 2,
+    "flatFloor": 15,
+    "totalHouseFloors": 22,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 2900000,
+    "square": 30.0,
+    "address": "Свердловская область, Екатеринбург, ул. Юмашева, 6",
+    "roomsAmount": 1,
+    "flatFloor": 17,
+    "totalHouseFloors": 17,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 4790000,
+    "square": 48.0,
+    "address": "Свердловская область, Екатеринбург, ул. Татищева, 47А",
+    "roomsAmount": 2,
+    "flatFloor": 11,
+    "totalHouseFloors": 30,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 2500000,
+    "square": 50.0,
+    "address": "Свердловская область, Екатеринбург, Союзная ул., 27",
+    "roomsAmount": 1,
+    "flatFloor": 24,
+    "totalHouseFloors": 25,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 2700000,
+    "square": 51.0,
+    "address": "Свердловская область, Екатеринбург, пр-т Космонавтов, 46А",
+    "roomsAmount": 1,
+    "flatFloor": 16,
+    "totalHouseFloors": 25,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 2650000,
+    "square": 45.0,
+    "address": "Свердловская область, Екатеринбург, Союзная ул., 2",
+    "roomsAmount": 1,
+    "flatFloor": 6,
+    "totalHouseFloors": 20,
+    "city": "Екатеринбург"
+  },
+  {
+    "price": 3767300,
+    "square": 50.5,
+    "address": "жилой комплекс Космонавтов 11, д. 11, корп. 4.1",
+    "roomsAmount": 2,
+    "flatFloor": 22,
+    "totalHouseFloors": 25,
+    "city": "Екатеринбург"
+  }
+]

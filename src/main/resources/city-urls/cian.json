@@ -1,0 +1,26 @@
+[
+  {
+    "cityName": "Екатеринбург",
+    "feedUrl": "https://ekb.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=flat&region=4743&room7=1&room9=1"
+  },
+  {
+    "cityName": "Москва",
+    "feedUrl": "https://ekb.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=flat&region=1&room7=1&room9=1"
+  },
+  {
+    "cityName": "Санкт-Петербург",
+    "feedUrl": "https://ekb.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=flat&region=2"
+  },
+  {
+    "cityName": "Тюмень",
+    "feedUrl": "https://ekb.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=flat&region=5024"
+  },
+  {
+    "cityName": "Челябинск",
+    "feedUrl": "https://ekb.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=flat&region=5048"
+  },
+  {
+    "cityName": "Новосибирск",
+    "feedUrl": "https://ekb.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=flat&region=4897"
+  }
+]
